@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/della-padula/NoticeWorker.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "NoticeWorker"
+  spec.source_files  = "NoticeWorker/**/*"
   spec.swift_version = "5.1"
 
 end
