@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Taein Kim" => "della.kimko@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "8.0"
 
   spec.source       = { :git => "https://github.com/della-padula/NoticeWorker.git", :tag => "#{spec.version}" }
 
