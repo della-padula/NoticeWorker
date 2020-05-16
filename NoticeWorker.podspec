@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoticeWorker"
-  spec.version      = "0.3.3"
+  spec.version      = "0.3.5"
   spec.summary      = "Notice Parser for Mobile Platform"
   spec.description  = "We provide URL constants and parsing modules that can provide school notices."
 
