@@ -8,7 +8,7 @@
 
 import Foundation
 
-class NW_Soongsil: Organization {
+public class NW_Soongsil: Organization {
     override init() {
         super.init()
         
