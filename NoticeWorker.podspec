@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoticeWorker"
-  spec.version      = "0.6.0"
+  spec.version      = "0.6.1"
   spec.summary      = "Notice Parser for Mobile Platform"
   spec.description  = <<-DESC
 We provide URL constants and parsing modules that can provide school notices."
@@ -22,7 +22,7 @@ We provide URL constants and parsing modules that can provide school notices."
   spec.platform     = :ios
   spec.ios.deployment_target = '8.0'
 
-  spec.source       = { :git => "https://github.com/della-padula/NoticeWorker.git", :tag => s.version.to_s }
+  spec.source       = { :git => "https://github.com/della-padula/NoticeWorker.git", :tag => spec.version.to_s }
 
   spec.source_files  = "NoticeWorker/**/*"
 
